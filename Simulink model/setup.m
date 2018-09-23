@@ -10,7 +10,7 @@ I = 0.006; % inertia of the pendulum [kg*m^2]
 g = 9.8;
 q = (m+M)*(I+m*l^2)-(m*l)^2
 PHI_U = tf([m*l/q 0],[1 b*(I+m*l*l)/q -(M+m)*m*g*l/q -b*m*g*l/q])
-Kp = 10;
-Ki = 0;
-Kd = 50;
+Kp = 7;
+Ki = 20;
+Kd = 5;
 
